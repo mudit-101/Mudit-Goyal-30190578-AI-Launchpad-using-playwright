@@ -1,0 +1,56 @@
+Act as a QA Engineer and create a detailed Test Plan document for a Demo Website containing Login, Registration, Forgot Password, Change Password, User Profile, Search, and Logout modules.
+
+The Test Plan should include:
+
+1. Release Scope
+   - Features included in the release
+   - Features excluded from the release
+
+2. Test Objectives
+   - Purpose of testing
+   - Business and quality goals
+
+3. Test Strategy
+   - Smoke Testing
+   - Functional Testing
+   - UI Testing
+   - Validation Testing
+   - Regression Testing
+   - Basic Security Testing
+
+4. Test Environment and Test Data
+   - Hardware and software requirements
+   - Supported browsers
+   - Test environment details
+   - Positive, negative, boundary, and security test data
+
+5. Resource Estimation
+   - Roles and responsibilities
+   - Effort estimation for planning, execution, retesting, and reporting
+
+6. Test Deliverables
+   - Test Plan
+   - Test Cases
+   - Test Data
+   - RTM
+   - Defect Report
+   - Test Summary Report
+
+7. Schedule and Timelines
+   - Testing phases
+   - Milestones and activities
+   - Estimated completion dates
+
+8. Risks and Mitigation Plan
+   - Potential testing risks
+   - Impact and mitigation actions
+
+9. Entry and Exit Criteria
+   - Conditions to start testing
+   - Conditions to complete testing
+
+10. Review and Approval
+   - Stakeholders involved
+   - Approval process
+
+Generate the document in a professional format with clear headings, subheadings, tables where required, and enough detail to resemble a real project Test Plan.

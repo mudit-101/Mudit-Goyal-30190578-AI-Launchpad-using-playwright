@@ -1,0 +1,52 @@
+Act as a Senior QA Test Manager and create a professional Test Strategy document for the given application/website.
+
+The Test Strategy should be based on the actual application functionality and include the following sections:
+
+1. Test Objectives
+   - Define testing goals.
+   - Align testing objectives with business requirements.
+   - Explain quality goals and release expectations.
+
+2. Overall Testing Approach
+   - Describe the testing methodology.
+   - Explain how testing will be performed throughout the SDLC.
+   - Define risk-based and requirement-based testing approaches.
+
+3. Testing Types
+   Include:
+   - Smoke Testing
+   - Functional Testing
+   - Regression Testing
+   - Integration Testing
+   - End-to-End Testing
+   - UI/UX Testing
+   - Compatibility Testing
+   - Security Testing
+   - Exploratory Testing
+   - User Acceptance Testing (UAT)
+
+4. Tools & Testing Environment
+   - Test Management Tool
+   - Defect Tracking Tool
+   - Automation Tools (if applicable)
+   - Browsers
+   - Devices
+   - Operating Systems
+   - Test Environment Details
+   - Test Data Strategy
+
+5. Roles & Responsibilities
+   Define responsibilities for:
+   - QA Engineer
+   - QA Lead
+   - Developer
+   - Project Manager
+   - Business Analyst
+   - Product Owner
+
+6. Risk Management
+   Identify:
+   - Requirement Risks
+   - Environment Risks
+   - Test Data Risks
+   -

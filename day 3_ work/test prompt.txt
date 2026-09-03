@@ -1,0 +1,39 @@
+Generate comprehensive test data for the given application/module.
+
+Use the following format:
+
+- Test Case ID
+- Module
+- Field
+- Category
+- Test Data
+- Purpose
+
+Cover the following test data categories for each field:
+- Valid
+- Invalid
+- Boundary
+- Empty/Null
+- Invalid Format
+- Special Characters
+- Whitespace
+- Negative
+- Security
+
+Generate test data for all major functionalities such as:
+- Login
+- Registration
+- Forgot Password
+- Change Password
+- User Profile
+- Search
+- Payment
+- Logout
+
+Requirements:
+- Create realistic and meaningful test data.
+- Include both positive and negative scenarios.
+- Include security test data (SQL Injection, XSS, etc.) where applicable.
+- Ensure boundary value and validation test data are covered.
+- Provide the output in an Excel-friendly tabular format.
+- Generate unique Test Case IDs for every row.

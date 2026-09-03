@@ -1,0 +1,14 @@
+I will provide a UI screenshot and an Excel template.
+
+Analyze the screen and create test cases in the same Excel format as the template.
+
+Requirements:
+- Cover all fields, buttons, checkboxes, and validations.
+- Include both positive and negative test scenarios.
+- All test cases must start with "Verify".
+- Generate proper Test Case IDs.
+- Fill Test Steps, Input Data, and Expected Results.
+- Keep Actual Result and Execution Status blank.
+- Use the same formatting and structure as the provided template.
+- Create comprehensive test cases for Credit Card Name, Card Number, Expiry Date, CVV, Save Card checkbox, and Pay button.
+- Deliver the final output as an Excel file.

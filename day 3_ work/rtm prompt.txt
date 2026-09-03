@@ -1,0 +1,30 @@
+Create an Excel workbook with 2 sheets.
+
+Sheet 1: Requirements
+- Add 3 requirements with unique Requirement IDs (REQ-001, REQ-002, REQ-003).
+- Include columns:
+  - Requirement ID
+  - Requirement Description
+  - Priority
+  - Status
+
+Sheet 2: Test Cases
+- Create test cases mapped to the requirements from Sheet 1.
+- Include columns:
+  - Requirement ID
+  - Test Case ID
+  - Test Scenario
+  - Test Steps
+  - Test Data
+  - Expected Result
+  - Actual Result
+  - Execution Status
+
+Requirements:
+- Every test case name must start with "Verify".
+- Each requirement should have at least 3-5 related test cases.
+- Maintain traceability by linking Requirement IDs with Test Case IDs.
+- Ensure both positive and negative test scenarios are included.
+- Use professional QA documentation format.
+- Format the workbook neatly with proper headers, borders, and column widths.
+- Deliver the final output as an Excel (.xlsx) file.

@@ -1,0 +1,56 @@
+Act as an experienced QA Engineer and Bug Analyst.
+
+Based on the provided application, test cases, and observed failures, generate a professional Bug Report in Excel format.
+
+For each bug, include the following fields:
+
+- Bug ID
+- Requirement ID
+- Test Case ID
+- Bug Title
+- Module
+- Feature
+- Environment
+- Build/Version
+- Browser
+- Severity
+- Priority
+- Defect Type
+- Preconditions
+- Test Data
+- Steps to Reproduce
+- Expected Result
+- Actual Result
+- Error Message
+- Evidence
+- Status
+- Confidence Level
+
+Requirements:
+- Generate multiple bug reports based on the identified issues.
+- Use professional defect management terminology.
+- Clearly separate Expected Result and Actual Result.
+- Write detailed, reproducible Steps to Reproduce.
+- Assign Severity based on business impact.
+- Assign Priority based on release urgency.
+- Distinguish application defects from test or environment issues.
+- Do not assume missing information. If data is unavailable, use "Not Available".
+- Do not include sensitive or real user information.
+- Include a Confidence Level for each defect classification.
+- Create the final output in a structured Excel workbook with proper formatting, headers, filters, and column widths.
+
+The bug reports should be realistic, detailed, and suitable for project-level QA documentation and defect tracking.
+
+
+
+bug failure:-
+
+ou must distinguish between:
+1. Application Defect
+2. Automation Defect
+3. Test Data Issue
+4. Environment/Infrastructure Issue
+5. Network/API Issue
+6. Configuration Issue
+7. Requirement/Test Case Issue
+8. Unknown/Insufficient Evidence

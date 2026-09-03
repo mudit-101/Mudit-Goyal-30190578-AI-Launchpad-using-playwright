@@ -1,0 +1,101 @@
+Act as a Senior QA Engineer and create a professional Test Execution Report based on the executed test cases, test results, failures, and defects identified during testing.
+
+Generate the report with the following sections:
+
+1. Project Information
+   - Project Name
+   - Application Name
+   - Test Cycle
+   - Environment
+   - Execution Date
+   - Tester Name
+   - Overall Status (Passed / Partially Passed / Failed)
+
+2. Executive Summary
+   - Brief overview of testing activities performed
+   - Overall quality assessment
+   - Key findings
+
+3. Test Execution Summary
+   Include:
+   - Total Test Cases
+   - Executed
+   - Passed
+   - Failed
+   - Blocked
+   - Skipped
+   - Pass Percentage
+   - Fail Percentage
+
+4. Test Results
+   For each executed test case include:
+   - Test Case ID
+   - Test Case Name
+   - Status
+   - Remarks
+
+5. Failure Analysis
+   For each failed test case include:
+   - Test Case ID
+   - Failure Type
+   - Severity
+   - Root Cause Analysis
+   - Comments
+
+   Failure Types:
+   - Application Defect
+   - Automation Defect
+   - Test Data Issue
+   - Environment/Infrastructure Issue
+   - Network/API Issue
+   - Configuration Issue
+   - Requirement/Test Case Issue
+   - Unknown/Insufficient Evidence
+
+6. Defect Summary
+   Summarize defects by:
+   - Critical
+   - High
+   - Medium
+   - Low
+   - Total
+
+7. Module-wise Execution Status
+   Include:
+   - Module Name
+   - Total Test Cases
+   - Passed
+   - Failed
+   - Pass Percentage
+
+8. Risks and Impact Assessment
+   - Open Defects
+   - High Severity Defects
+   - Business Impact
+   - Release Risk
+
+9. Recommendations
+   - Fix recommendations
+   - Retesting recommendations
+   - Regression testing recommendations
+
+10. Exit Criteria Status
+   - Test Execution Completed
+   - Critical Defects Closed
+   - High Severity Defects Closed
+   - Regression Completed
+   - Sign-off Readiness
+
+11. Final Assessment
+   Include:
+   - Overall Result
+   - Release Recommendation (Go / Conditional Go / No-Go)
+   - Reason for Recommendation
+
+Requirements:
+- Use professional QA terminology.
+- Clearly distinguish between failures and confirmed defects.
+- Include realistic execution metrics.
+- Generate clean tables for all summary sections.
+- Make the report suitable for client reporting, UAT sign-off, and project-level QA documentation.
+- Output should be ready to export into Word or Excel format.
