@@ -1,0 +1,89 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: banking.spec.ts >> Complete Banking E2E Flow
+- Location: tests\banking.spec.ts:75:5
+
+# Error details
+
+```
+Error: expect(locator).toContainText(expected) failed
+
+Locator: locator('tbody tr').first()
+Expected substring: "savings to savings"
+Received string:    "2026-09-03Internal Transfer checking to savingsTransfer-$2.01"
+Timeout: 5000ms
+
+Call log:
+  - Expect "toContainText" with timeout 5000ms
+  - waiting for locator('tbody tr').first()
+    14 × locator resolved to <tr>…</tr>
+       - unexpected value "2026-09-03Internal Transfer checking to savingsTransfer-$2.01"
+
+```
+
+```yaml
+- row "2026-09-03 Internal Transfer checking to savings Transfer -$2.01":
+  - cell "2026-09-03"
+  - cell "Internal Transfer checking to savings"
+  - cell "Transfer"
+  - cell "-$2.01"
+```
+
+# Test source
+
+```ts
+  1  | // import { Page, expect } from '@playwright/test';
+  2  | 
+  3  | // export class TransactionPage {
+  4  | 
+  5  | //   constructor(private page: Page) {}
+  6  | 
+  7  | //   async validateTransaction() {
+  8  | 
+  9  | //     const transaction =
+  10 | //       this.page.locator('tbody tr').first();
+  11 | 
+  12 | //     await expect(transaction)
+  13 | //       .toContainText('Internal Transfer');
+  14 | 
+  15 | //     await expect(transaction)
+  16 | //       .toContainText('savings to savings');
+  17 | 
+  18 | //     await expect(transaction)
+  19 | //       .toContainText('$1000.00');
+  20 | //   }
+  21 | // }
+  22 | 
+  23 | import { Page, expect } from '@playwright/test';
+  24 | 
+  25 | export class TransactionPage {
+  26 | 
+  27 |   constructor(private page: Page) {}
+  28 | 
+  29 |   async validateTransaction(
+  30 |     description: string,
+  31 |     category: string,
+  32 |     amount: string
+  33 |   ) {
+  34 | 
+  35 |     const latestRow =
+  36 |       this.page.locator('tbody tr').first();
+  37 | 
+  38 |     await expect(latestRow)
+  39 |       .toContainText('Internal Transfer');
+  40 | 
+  41 |     await expect(latestRow)
+> 42 |       .toContainText('savings to savings');
+     |        ^ Error: expect(locator).toContainText(expected) failed
+  43 | 
+  44 |     await expect(latestRow)
+  45 |       .toContainText('$1000.00');
+  46 |   }
+  47 | }
+```
